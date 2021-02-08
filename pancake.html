@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@200;300;400;500;600;700;900&family=Varela+Round&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<!---Setting up our grid container--->
+  <div class="gridcontainer">
+
+    <!---This hero-image class will be filled with an image using CSS background-image property.
+    Check the style.css file to see how this works--->
+    <div class="hero-image">
+    </div>
+
+    <!---Creating a class for the area with a dark background on the right. We'll define the background color in the CSS file.--->
+    <div class="right-panel">
+
+      <!---A container for all the text on top of the dark background--->
+      <div class="hero-text">
+        <!--This class defines all text that has it as white text-->
+        <h1 class="white">
+          Strawberry Pancakes</h1>
+
+          <p class="white">
+            Unbelievable pancakes. I just added blackberries and blueberries along with the strawberry's. Perfect recipe!
+          </p>
+
+          <!---A container for the informational 3-column row--->
+          <div class="info-text">
+
+            <!---Adding in a styled line--->
+            <hr class="horizontal"/>
+
+            <!---This part gets a little funky. We're creating a boxes container that we're applying Flexbox to,
+            so that we can display all of the HTML elements in a nice row--->
+              <div class="boxes">
+
+                <!--here's the first chunk-->
+                <div class="box">
+                  <h5 class="subhead light-grey">
+                    Servings
+                  </h5>
+                  <h2 class="white">
+                    4
+                  </h2>
+
+                </div>
+
+                <!--adding a styled vertical line-->
+                <span class="vertical-line"></span>
+
+                <!--here's the second chunk-->
+                <div class="box">
+                  <h5 class="subhead light-grey">
+                    Prep time
+                  </h5>
+                  <h2 class="white">
+                    30m
+                  </h2>
+                </div>
+
+                <!--adding a styled vertical line-->
+                <span class="vertical-line"></span>
+
+                <!--the third chunk-->
+                <div class="box">
+                  <h5 class="subhead light-grey">
+                    Cook time
+                  </h5>
+                  <h2 class="white">
+                    25m
+                  </h2>
+                </div>
+
+              </div>
+              <!---Adding in a styled line--->
+              <hr class="horizontal"/>
+
+            </div>
+<!-- Ok this is the end of the info-text component. Phew!-->
+        </div>
+
+<!--This is the end of the dark panel content-->
+    </div>
+
+<!--Closing tag for the grid container-->
+  </div>
+<!--and finally we're done with the whole HTML file! Great job we made it!-->
+</body>
+</html>
